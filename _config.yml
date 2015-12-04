@@ -1,0 +1,64 @@
+# Site settings
+title: 李从辉
+header-img: "img/facebook.jpg"
+description: "李从辉| 我们的命运在我们手上"  
+baseurl: "/liconghui"
+url: "http://liconghui.blog.com"  
+
+# About/contact
+owner: 
+  name: " liconghui"
+  email: 944896092@qq.com
+  bio: "玫瑰花：哦，如果我想跟蝴蝶交朋友的话，当然就得忍耐两三只毛毛虫的拜访咯。"
+
+# Data
+gavatar: http://7xov8c.com1.z0.glb.clouddn.com/fa.jpg
+# http://7xov8c.com1.z0.glb.clouddn.com/fa.jpg
+favicon: img/favicon.png
+
+douban_username:  
+twitter_username: 
+github_username: huihuiyihan
+facebook_username: 
+weibo_username: huige05_18@126.com
+zhihu_username: liconghui
+
+# Build settings  
+# use Github Flavored Markdown !important  
+# document: http://jekyllrb.com/docs/configuration/#kramdown  
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+relative_permalinks: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
+
+# Defaults for posts
+defaults:
+  -
+    scope: 
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "liconghui"
+      header-img: "img/facebook.jpg" # We don't want posts without a header image, that whould mean white on white
+
+# Comments 
+comments :
+  provider : duoshuo
+  duoshuo :
+    short_name : lchcxm
+  disqus :
+      short_name : liconghui
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: 
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in footer navigation
